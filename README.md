@@ -21,6 +21,10 @@ To create a webpage that can display whether an object is detected by an object 
  - [Arduino IDE code to collect data] https://esp32io.com/tutorials/esp32-infrared-obstacle-avoidance-sensor
  - [Webserver and VS code] https://github.com/0LIH/IoT-Weather#readme
 
+   ### Screenshots of Key Changes
+- Added Arduino Code
+![firstChange](Assets/First-Change.png)
+
 
 
 
