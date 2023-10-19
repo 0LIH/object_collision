@@ -22,15 +22,15 @@ To create a webpage that can display whether an object is detected by an object 
  - [Webserver and VS code] https://github.com/0LIH/IoT-Weather#readme
 
    ### Screenshots of Key Changes
-- Added Arduino Code
+- Added Arduino Code: This allows the data from the Esp32 and sensor module to be read,recieved and sent to the web server
 ![firstChange](Assets/First-Change.png)
-- Created Server.js
+- Created Server.js: This sets up the server using express as well as specifying the port the webserver will use.
 ![secondChange](Assets/Second-Change.png)
--Created index.js
+-Created index.js: this uses fetch to get the API data from Arduino and stores the data in set variables
 ![ThirdChange](Assets/Third-Change.png)
--Created layouts and partials
+-Created layouts and partials: This specifies the layout of the website along with the header and footer
 ![FourthChange](Assets/Fourth-Change.png)
--Added Package.json and dependencies
+-Added Package.json and dependencies: Installs modules and dependencies required for certain parts of the code works
 ![FifthChange](Assets/Fifth-Change.png)
 
 
