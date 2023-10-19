@@ -26,7 +26,12 @@ To create a webpage that can display whether an object is detected by an object 
 ![firstChange](Assets/First-Change.png)
 - Created Server.js
 ![secondChange](Assets/Second-Change.png)
-
+-Created index.js
+![ThirdChange](Assets/Third-Change.png)
+-Created layouts and partials
+![FourthChange](Assets/Fourth-Change.png)
+-Added Package.json and dependencies
+![FifthChange](Assets/Fifth-Change.png)
 
 
 
