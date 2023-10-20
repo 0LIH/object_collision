@@ -32,7 +32,10 @@ To create a webpage that can display whether an object is detected by an object 
 ![FourthChange](Assets/Fourth-Change.png)
 -Added Package.json and dependencies: Installs modules and dependencies required for certain parts of the code works
 ![FifthChange](Assets/Fifth-Change.png)
-
+-Added CSS: Styles the webpage to make it appear more appealing and easier to understand
+![addedcss](Assets/AddedCSS.png)
+### Final Result of Webpage
+![Final](Assets/Final-Result.png)
 
 
    
