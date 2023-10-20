@@ -1,34 +1,35 @@
-<nav>
-    <p>Categories</p>
-    <li><a href="https://weather.com/en-AU/weather/today/l/ASXX0023:1:AS?Goto=Redirected">Weather</a></li>
-    <li><a href="#">Data</a></li>
-</nav>
-<article>
-    <h2>The Best IoT Sensor App</h2>
-    <!--<img src="assets/yellow-umbrella.png" width="75px" alt="article banner">
-  <h2>This is an umbrella</h2>!-->
-</article>
-<aside>
-    <ul>
-        <li>
-            <p><strong>Object Detected</strong></p>
-        </li>
-        <li>
+<div class="main">
+    <nav>
+        <p>Categories</p>
+        <a href="#">
+            <p>Data</p>
+        </a>
+    </nav>
+    <article>
+        <h2>The Best IoT Sensor App</h2>
+    </article>
+    <aside>
+        <ul>
+
+            <p><strong>Object Detected:</strong>
+                <%= obj.value %>
+            </p>
+
+
             <!-- <p>Time: <span id="time2"><%= obj.updateTime %></span><br /></p> -->
-            <p>Object Detection: <%= obj.value %><br /></p>
-            <!--<p>Humidity: <%= obj.humidity %>&percnt;<br /></p>-->
-        </li>
-        <li>
-            <p><strong>Sensor Info: Infarred Obsticle avoidnce sensor</strong></p>
-        </li>
-        <li>
-            <p>Sensor: <%= obj.sensName %> <br /></p>
-            <p>Id: <%= obj.id %> <br /></p>
-            <p>Hardware: <%= obj.hardware %> <br /></p>
-            <p>Location: <%= obj.location %><br /></p>
-        </li>
-        <li>
+
+            <br>
+            <div class="sensorInfo">
+                <p><strong>Sensor Info: Infarred Obsticle avoidnce sensor</strong></p>
+
+                <p>Sensor: <%= obj.sensName %> <br /></p>
+                <p>Id: <%= obj.id %> <br /></p>
+                <p>Hardware: <%= obj.hardware %> <br /></p>
+            </div>
+            <!--<p>Location: <%= obj.location %><br /></p>-->
+
             <p><strong>Writted by: Oliver Hoorweg</strong></p>
-        </li>
-    </ul>
-</aside>
+
+        </ul>
+    </aside>
+</div>

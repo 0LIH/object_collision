@@ -1,0 +1,40 @@
+body {
+
+    background-color: antiquewhite;
+
+}
+
+.main {
+    background-color: darkgray;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+h2,
+h1,
+p {
+    text-align: center;
+}
+
+.sensorInfo {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+.article {
+    background-color: lightgreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.footer {
+    margin: 20px;
+    padding-top: 200px;
+}
